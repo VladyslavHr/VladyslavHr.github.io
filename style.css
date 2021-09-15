@@ -11,14 +11,14 @@
 
 .profile-image img{
     max-height: 270px;
-    border-radius: 33%;
+    border-radius: 35%;
 }
 
 .name-title{
     display: inline-block;
     font-size: 25px;
-    width: 80%;
-    background: #6bc6e8;
+    width: 65%;
+    background: #184253;
     color: #f9f9f9;
 }
 
@@ -64,20 +64,21 @@
     padding-left: 40px;
     font-size: 25px;
     text-decoration: underline;
-    color: #6bc6e8;
+    color: #316282;
     cursor: pointer;
 }
 
 .contacts h3:hover,
 .skills h3:hover,
 .languages h3:hover{
-    filter: drop-shadow(16px 16px 16px #2da6d4);
+    filter: drop-shadow(16px 16px 16px #1a2a3e);
 }
 
 .contacts-list,
 .skills-list,
 .languages-list{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     font-size: 20px;
     text-align: center;
@@ -100,7 +101,7 @@
 .languages-list li{
     margin: 5px;
     line-height: 1.5;
-    background: #2da6d4;
+    background: #1a2a3e;
     border-radius: 10%;
     color: #f9f9f9;
     width: 15%;
@@ -108,7 +109,7 @@
 
 .skills-list li:hover,
 .languages-list li:hover{
-    filter: brightness(135%);
+    filter: brightness(150%);
 }
 
 .work-experience{
@@ -119,7 +120,7 @@
 .education-image h3,
 .interests-image h3{
     font-size: 28px;
-    color: #2da6d4;
+    color: #316282;
     text-decoration: underline;
 }
 
@@ -136,6 +137,7 @@
 .education-image,
 .interests-image{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -154,6 +156,7 @@
 
 .education-image{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -174,6 +177,7 @@
 
 .interests-names{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0;
 }
