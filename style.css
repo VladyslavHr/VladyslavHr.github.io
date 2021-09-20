@@ -28,10 +28,27 @@
     margin-left: 15px;
 }
 
+
 .title h3{
     margin-left: 15px;
     text-decoration: underline;
 }
+
+.birth{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.birth-place{
+    margin-left: 15px;
+}
+
+.birth svg,
+.birth-place svg{
+    width: 20px;
+    height: 18px;
+}
+
+
 
 .main-info{
     display: flex;
@@ -239,6 +256,7 @@ display: inline-block;
     margin: 5px;
     border-radius: 50%;
 }
+
 
 
 
